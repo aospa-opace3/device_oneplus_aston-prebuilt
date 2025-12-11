@@ -1,3 +1,6 @@
+kernel/lib/zlib_inflate/zlib_inflate.ko
+kernel/lib/zlib_deflate/zlib_deflate.ko
+kernel/lib/xz/xz_dec.ko
 kernel/arch/arm64/kvm/kvm.ko
 kernel/arch/arm64/crypto/sha2-ce.ko
 kernel/arch/arm64/crypto/sha512-ce.ko
@@ -167,8 +170,6 @@ kernel/lib/crc32.ko
 kernel/lib/libcrc32c.ko
 kernel/lib/crc8.ko
 kernel/lib/xxhash.ko
-kernel/lib/zlib_inflate/zlib_inflate.ko
-kernel/lib/zlib_deflate/zlib_deflate.ko
 kernel/lib/reed_solomon/reed_solomon.ko
 kernel/lib/lzo/lzo_compress.ko
 kernel/lib/lzo/lzo_decompress.ko
@@ -177,7 +178,6 @@ kernel/lib/lz4/lz4hc_compress.ko
 kernel/lib/lz4/lz4_decompress.ko
 kernel/lib/zstd/zstd_compress.ko
 kernel/lib/zstd/zstd_decompress.ko
-kernel/lib/xz/xz_dec.ko
 kernel/lib/ts_kmp.ko
 kernel/lib/ts_bm.ko
 kernel/lib/ts_fsm.ko
